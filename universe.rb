@@ -15,12 +15,16 @@ class Universe
   end
 
   def iterate
+    #calculate forces
     @particles.each do |source_particle|
       others = @particles.delete(source_particle)
       others.each do |other_particle|
         
       end
     end
+
+    #move!
+
   end
 
 
