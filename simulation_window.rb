@@ -13,5 +13,7 @@ class SimulationWindow < Gosu::Window
   end
 end
 
+puts "Starting Simulation..."
+
 window = SimulationWindow.new
 window.show
